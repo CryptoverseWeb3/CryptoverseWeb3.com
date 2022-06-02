@@ -28,7 +28,7 @@ const Navbar = () => {
 
                 {[<a href={"https://kabir0x23.github.io/cryptoverse/"}>Market</a>,
                     <a href={"https://kabir0x23.github.io/cryptoverse/"}>Crypto
-                        News</a>, "Wallets"].map((item, index) => (
+                        News</a>, "Wallets", "Tutorials"].map((item, index) => (
                     <NavbarItem key={item + index} title={item}/>
                 ))}
 
