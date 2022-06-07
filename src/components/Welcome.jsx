@@ -36,7 +36,7 @@ const Welcome = () => {
     return (
         <div className={"flex w-full justify-center items-center"}>
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
-                <dev className="flex flex-1 justify-start flex-col mf:mr-10">
+                <div className="flex flex-1 justify-start flex-col mf:mr-10">
                     <h1 className={"text-3xl sm:text-5xl text-white text-gradient py-1"}>
                         Send Crypto <br/> across the world
                     </h1>
@@ -45,7 +45,7 @@ const Welcome = () => {
                         Explore the crypto world. Buy and sell cryptocurrencies easily on CryptoverseWeb3.
                     </p>
 
-                    {!currentAccount && (
+          {!currentAccount && (
                         <button
                             type={"button"}
                             onClick={connectWallet}
@@ -68,7 +68,7 @@ const Welcome = () => {
                         <div className={commonStyles}>Low fess</div>
                         <div className={`rounded-br-2xl ${commonStyles}`}>Blockchain</div>
                     </div>
-                </dev>
+                </div>
 
                 <div className={"flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10"}>
                     <div
@@ -91,7 +91,7 @@ const Welcome = () => {
                     <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
                         <Input placeholder={"Address To"} name={"addressTo"} type={"text"} handleChange={handleChange}/>
                         <Input placeholder={"Amount (ETH)"} name={"amount"} type={"number"} handleChange={handleChange}/>
-                        <Input placeholder={"Keyword (Gif)"} name={"keyword"} type={"text"} handleChange={handleChange}/>
+                        <Input placeholder={"Keyword (GIF)"} name={"keyword"} type={"text"} handleChange={handleChange}/>
                         <Input placeholder={"Enter Message"} name={"message"} type={"text"} handleChange={handleChange}/>
 
                         <div className="h-[1px] w-full bg-gray-400 my-2 eth-card"/>
