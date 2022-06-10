@@ -23,8 +23,8 @@ const Footer = () => {
                 <p className={"text-white text-sm text-center"}> info@CryptoverseWeb3.com </p>
             </div>
 
-            <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 m-5 " />
-            
+            <div className="sm:w-[90%] w-full h-[1.25px] eth-card m-5 " />
+
             <div className={"sm:w-[90%] w-full flex justify-between items-center"}>
                 <p className={"text-white text-sm text-center"}>@CryptoverseWeb3 2022</p>
                 <p className={"text-white text-sm text-center"}>All rights reserved</p>
