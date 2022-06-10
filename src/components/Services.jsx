@@ -32,7 +32,8 @@ const Services = () => {
                 <div className={"flex-1 flex flex-col justify-start items-start"}>
                     <h1 className={"text-white text-3xl sm:text-5xl py-2 text-gradient"}>
                         Services that we <br/>
-                        continue to improve</h1>
+                        continue to improve
+                    </h1>
                 </div>
 
             </div>
