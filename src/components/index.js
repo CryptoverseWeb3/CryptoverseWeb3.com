@@ -7,5 +7,6 @@ export {default as Transactions} from './Transactions'
 
 export {default as Cryptocurrencies} from './cryptocurrencies/Cryptocurrencies';
 export {default as CryptoDetails} from './cryptocurrencies/CryptoDetails';
+export {default as News} from './cryptocurrencies/News';
 
 export {default as Footer} from './Footer'
