@@ -1,4 +1,4 @@
-import {Navbar, Homepage, Cryptocurrencies, Footer,} from './components'
+import {Navbar, Homepage, Cryptocurrencies,CryptoDetails, Footer,} from './components'
 import './App.css';
 import {Route, Routes} from "react-router-dom";
 
@@ -24,6 +24,9 @@ const App = () => {
 
                     <Route exact path={"/cryptocurrencies"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
+                    }/>
+                    <Route exact path={"//crypto/:coinId"} element={
+                        <NewRoutes navTo={<CryptoDetails/>}/>
                     }/>
                 </Routes> </>
             </div>
