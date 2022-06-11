@@ -1,5 +1,5 @@
 import React from 'react';
-import {Market, Navbar, Services, Transactions, Welcome} from "./index";
+import {Navbar, Services, Transactions, Welcome} from "./index";
 
 const Homepage = () => {
     return (
