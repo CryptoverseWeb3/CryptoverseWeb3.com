@@ -35,6 +35,7 @@ const Navbar = () => {
                 {[
                     <Link className={"text-white"} to='/'>Home</Link>,
                     <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
+                    <Link className={"text-white"} to='/news'>Crypto News</Link>,
                     <Link className={"text-white"} to='/'>Wallets</Link>,
                     <a className={"text-white"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>Tutorials</a>
                 ].map((item, index) => (
@@ -58,9 +59,9 @@ const Navbar = () => {
                         {[
                             <Link className={"text-white"} to='/'>Home</Link>,
                             <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
+                            <Link className={"text-white"} to='/news'>Crypto News</Link>,
                             <Link className={"text-white"} to='/'>Wallets</Link>,
                             <a className={"text-white"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>Tutorials</a>
-
                         ].map((item, index) => (
                             <NavbarItem key={item + index} title={item} classProps={"my-2 text-lg"}/>
                         ))}
