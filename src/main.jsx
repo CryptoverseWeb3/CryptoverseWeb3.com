@@ -14,7 +14,8 @@ import {TransactionsProvider} from "./context/TransactionContext";
 ReactDOM.createRoot(document.getElementById('root')).render(
     <TransactionsProvider>
       <React.StrictMode>
-        <Router basename={"/cryptoverseWeb3"}>
+        {/*<Router basename={"/cryptoverseWeb3"}>*/}
+        <Router>
           <Provider store={store}>
             <App/>
           </Provider>
