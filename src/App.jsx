@@ -20,8 +20,9 @@ const App = () => {
             </div>
             <div>
                 <> <Routes>
-                    <Route exact path={"/"} element={<Homepage/>}/>
-
+                    <Route exact path={"/"} element={
+                        <Homepage/>
+                    }/>
                     <Route exact path={"/cryptocurrencies"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
                     }/>
