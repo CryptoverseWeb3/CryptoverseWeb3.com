@@ -16,6 +16,8 @@ import {
 } from '@ant-design/icons';
 
 import {useGetCryptoDetailsQuery, useGetCryptoHistoryQuery} from '../../services/cryptoApi';
+import LineChart from './LineChart';
+
 import Loader from '../Loader';
 
 const {Title, Text} = Typography;
@@ -129,6 +131,15 @@ const CryptoDetails = () => {
                     ))}
                 </Col>
             </Col>
+
+            <Select defaultValue={"7d"} className={"select-timeperiod"} placeholder={"Select Time Period"}
+                    onChange={(value) => setTimeperiod(value)}>
+                {time.map((date) => <Option key={date}>{date}</Option>)}
+            </Select>
+
+            <LineChart coinHistory={coinHistory} currentPrice={millify(cryptoDetails?.price)}
+                       coinName={cryptoDetails?.name}/>
+
 
             <Col className={"coin-desc-link"}>
                 <Row className={"coin-desc"}>
