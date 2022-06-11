@@ -37,34 +37,50 @@ const Navbar = () => {
                     <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
                     <Link className={"text-white"} to='/news'>Crypto News</Link>,
                     <Link className={"text-white"} to='/'>Wallets</Link>,
-                    <a className={"text-white"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>Tutorials</a>
+                    <a className={"text-white"}
+                       href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1'
+                       target={"_blank"}>Tutorials</a>
                 ].map((item, index) => (
                     <NavbarItem key={item + index} title={item}/>
                 ))}
 
+                <li className={"bg-[] py-2 px-5 mx-4 rounded-lg cursor-pointer hover:bg-[#ed830e]"}>
+                    <a className={"text-white"} href="https://www.linktree.com/CryptoverseWeb3" target={"_blank"}> Social links
+                    </a>
+                </li>
             </ul>
+
             <div className={"flex relative"}>
                 {toggleMenu
-                    ? <AiOutlineClose fontsize={28} className={"text-white md:hidden cursor-pointer"}
+                    ? <AiOutlineClose fontsize={28} className={"hidden text-white md:hidden sm:hidden cursor-pointer"}
                                       onClick={() => setToggleMenu(false)}/>
-                    : <HiMenuAlt4 fontsize={28} className={"text-white md:hidden cursor-pointer"}
+                    : <HiMenuAlt4 fontsize={28} className={" text-2xl text-white md:hidden cursor-pointer"}
                                   onClick={() => setToggleMenu(true)}/>
                 }
 
                 {toggleMenu && (
                     <ul className={"z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2x1 md:hidden list-none flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"}>
                         <li className={"text-xl w-full my-2"}>
-                            <AiOutlineClose onClick={() => setToggleMenu(false)}/>
+                            <AiOutlineClose className={"bg-gray-800 m-5 text-3xl"}
+                                            onClick={() => setToggleMenu(false)}/>
                         </li>
                         {[
                             <Link className={"text-white"} to='/'>Home</Link>,
                             <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
                             <Link className={"text-white"} to='/news'>Crypto News</Link>,
                             <Link className={"text-white"} to='/'>Wallets</Link>,
-                            <a className={"text-white"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>Tutorials</a>
+                            <a className={"text-white"}
+                               href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1'
+                               target={"_blank"}>Tutorials</a>
                         ].map((item, index) => (
-                            <NavbarItem key={item + index} title={item} classProps={"my-2 text-lg"}/>
+                            <NavbarItem key={item + index} title={item}/>
                         ))}
+                    <div className={"mt-5"}>
+                        <li className={"bg-[#ed830e] py-1 px-4 mx-1 rounded-lg cursor-pointer hover:bg-[#f26c3c]"}>
+                            <a className={"text-white"} href="https://www.linktree.com/CryptoverseWeb3" target={"_blank"}> Social links
+                            </a>
+                        </li>
+                    </div>
                     </ul>
                 )}
 
