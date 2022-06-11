@@ -2,8 +2,10 @@ import React
 // ,{ useState}
     from 'react';
 
-import {HiMenuAlt4} from 'react-icons/hi'
-import {AiOutlineClose} from 'react-icons/ai'
+// import {HiMenuAlt4} from 'react-icons/hi'
+// import {AiOutlineClose} from 'react-icons/ai'
+import {RiMenuFoldLine} from 'react-icons/ri'
+import {CgCloseR} from 'react-icons/cg'
 import {Link} from 'react-router-dom';
 
 import logo from '../../images/cryptoverseWeb3.png'
@@ -52,16 +54,16 @@ const Navbar = () => {
 
             <div className={"flex relative"}>
                 {toggleMenu
-                    ? <AiOutlineClose fontsize={28} className={"hidden text-white md:hidden sm:hidden cursor-pointer"}
+                    ? <CgCloseR fontsize={28} className={"hidden text-white md:hidden sm:hidden cursor-pointer"}
                                       onClick={() => setToggleMenu(false)}/>
-                    : <HiMenuAlt4 fontsize={28} className={" text-2xl text-white md:hidden cursor-pointer"}
+                    : <RiMenuFoldLine fontsize={28} className={" text-2xl text-white md:hidden cursor-pointer"}
                                   onClick={() => setToggleMenu(true)}/>
                 }
 
                 {toggleMenu && (
                     <ul className={"z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2x1 md:hidden list-none flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"}>
                         <li className={"text-xl w-full my-2"}>
-                            <AiOutlineClose className={"bg-gray-800 m-5 text-3xl"}
+                            <CgCloseR className={"bg-gray-800 m-5 text-3xl"}
                                             onClick={() => setToggleMenu(false)}/>
                         </li>
                         {[
