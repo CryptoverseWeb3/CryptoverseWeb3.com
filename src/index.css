@@ -74,6 +74,18 @@ body {
             radial-gradient(at 53% 75%, hsl(134, 100%, 41%) 0, transparent 45%);
 }
 
+.loader-design {
+    background-color: #746e9f;
+    background-image:
+            radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%),
+            radial-gradient(at 67% 20%, hsl(31, 92%, 51%) 0, transparent 59%),
+            radial-gradient(at 88% 35%, hsl(31, 94%, 14%) 0, transparent 50%),
+            radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%),
+            radial-gradient(at 27% 71%, hsl(31, 92%, 51%) 0, transparent 49%),
+            radial-gradient(at 74% 89%, hsl(31, 92%, 51%) 0, transparent 51%),
+            radial-gradient(at 53% 75%, hsl(0, 100%, 41%) 0, transparent 45%);
+}
+
 /*.eth-card {*/
 /*    background-color:#a099ff;*/
 /*    background-image:*/
