@@ -3,7 +3,6 @@
   "name": "cryptoverseweb3",
   "private": true,
   "version": "0.0.0",
-
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
@@ -11,13 +10,15 @@
     "build": "vite build --base=cryptoverseWeb3",
     "preview": "vite preview"
   },
-
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
     "@tailwindcss/forms": "^0.5.2",
+    "antd": "^4.21.0",
     "ethers": "^5.6.8",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
