@@ -1,4 +1,4 @@
-import {Navbar, Homepage, Cryptocurrencies, CryptoDetails, News, Footer,} from './components'
+import {Navbar, Homepage, TransactionsHistory, Cryptocurrencies, CryptoDetails, News, Footer,} from './components'
 import './App.css';
 import {Route, Routes} from "react-router-dom";
 
@@ -23,7 +23,8 @@ const App = () => {
                     <Route exact path={"/"} element={
                         <Homepage/>
                     }/>
-                    <Route exact path={"/cryptocurrencies"} element={
+
+                    <Route exact path={"/Cryptocurrencies"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
                     }/>
                     <Route exact path={"/crypto/:coinId"} element={
@@ -32,6 +33,14 @@ const App = () => {
                     <Route exact path={"/news"} element={
                         <NewRoutes navTo={<News/>}/>
                     }/>
+
+                    <Route exact path={"/TransactionsHistory"} element={
+                        <div className={"gradient-bg-welcome"}>
+                            <Navbar/>
+                            <TransactionsHistory/>
+                        </div>
+                    }/>
+
                 </Routes> </>
             </div>
 
