@@ -1,7 +1,7 @@
 export default [
     {
         id: 1,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
@@ -10,7 +10,7 @@ export default [
     },
     {
         id: 2,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
@@ -19,7 +19,7 @@ export default [
     },
     {
         id: 3,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
@@ -28,7 +28,7 @@ export default [
     },
     {
         id: 4,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
@@ -37,7 +37,7 @@ export default [
     },
     {
         id: 5,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
@@ -46,7 +46,7 @@ export default [
     },
     {
         id: 6,
-        url: "https://i.pinimg.com/originals/73/d3/a1/73d3a14d212314ab1f7268b71d639c15.gif",
+        url: "https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g",
         message: "Hi",
         timestamp: "12/21/2021, 4:33:21 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
