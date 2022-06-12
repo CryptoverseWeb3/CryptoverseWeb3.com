@@ -19,9 +19,7 @@ const Footer = () => {
                     <a className={"text-white mr-2"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>
                         Tutorials
                     </a>
-
                 </div>
-
             </div>
 
             <div className="flex justify-center items-center flex-col mt-5">
@@ -33,9 +31,7 @@ const Footer = () => {
                 </p>
                 <p className={"text-white text-sm text-center"}> info@CryptoverseWeb3.com </p>
             </div>
-
             <div className="sm:w-[90%] w-full h-[1.25px] eth-card m-5 "/>
-
             <div className={"sm:w-[90%] w-full flex justify-between items-center"}>
                 <p className={"text-white text-sm text-center"}>@CryptoverseWeb3 2022</p>
                 <p className={"text-white text-sm text-center"}>All rights reserved</p>
