@@ -66,7 +66,7 @@ const Welcome = () => {
                         <div className={`rounded-tr-2xl ${commonStyles}`}>Ethereum</div>
 
                         {/*<div className={commonStyles}>Crypto News</div>*/}
-                        {/*<div className={commonStyles}>CryptoCoins</div>*/}
+                        {/*<div className={commonStyles}>Cryptocurrencies</div>*/}
                         {/*<div className={commonStyles}>Exchanges</div>*/}
 
                         <div className={`rounded-bl-2xl ${commonStyles}`}>WEB 3.0</div>

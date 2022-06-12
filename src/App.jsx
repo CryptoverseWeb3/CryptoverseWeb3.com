@@ -33,7 +33,7 @@ const App = () => {
                         <Homepage/>
                     }/>
 
-                    <Route exact path={"/CryptoCoins"} element={
+                    <Route exact path={"/Cryptocurrencies"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
                     }/>
                     <Route exact path={"/crypto/:coinId"} element={
