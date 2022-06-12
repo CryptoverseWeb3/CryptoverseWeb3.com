@@ -20,7 +20,6 @@ const ServiceCard = ({color, title, icon, subtitle}) => (
             <h1 className={"mt-2 text-white text-lg"}>{title}</h1>
             <p className={"mt-2 text-white text-sm md:w-9/12"}>{subtitle}</p>
         </div>
-
     </div>
 
 )
@@ -35,7 +34,6 @@ const Services = () => {
                         continue to improve
                     </h1>
                 </div>
-
             </div>
             <div className="flex-1 flex flex-col justify-start items-center">
                 <ServiceCard
@@ -58,7 +56,6 @@ const Services = () => {
                     subtitle={"Security is guaranteed. We always maintain privacy and the quality of our products."}
                 />
             </div>
-
         </div>
     );
 };
