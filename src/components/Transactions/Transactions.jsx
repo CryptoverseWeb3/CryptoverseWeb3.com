@@ -56,8 +56,8 @@ const Transactions = () => {
         <div className={"flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions"}>
             <div className={"flex flex-col md:p-12 py-12 px-4"}>
                 {currentAccount ? (
-                    <h3 className={"text-white text-3xl text-center my-2"}>
-                        Latest 10 transactions
+                    <h3 className={"text-white text-3xl text-center my-2 pt-5"}>
+                        10 Latest Transactions
                     </h3>
                 ) : (
                     <h3 className={"text-white text-3xl text-center my-2"}>
@@ -65,7 +65,7 @@ const Transactions = () => {
                     </h3>
                 )}
 
-                <div className={"flex flex-wrap justify-center items-center mt-10"}>
+                <div className={"flex flex-wrap justify-center items-center mt-5"}>
                     {[
                         // ...dummyData,
                         ...transactions
@@ -79,7 +79,9 @@ const Transactions = () => {
                 </div>
 
                 <h3 className={"text-white text-3xl text-center my-2 mt-10"}>
-                    <Link className={"text-white"} to='/TransactionsHistory'>All Transactions History</Link>
+                    <Link className={"text-white"} to='/TransactionsHistory'>
+                        List All Transactions.
+                    </Link>
                 </h3>
             </div>
         </div>
