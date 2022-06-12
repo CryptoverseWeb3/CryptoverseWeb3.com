@@ -63,7 +63,7 @@ const LatestTransactions = () => {
                     <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
                         <a onClick={connectWallet} className={"text-amber-500"}>
                             Connect your account <br/> </a>
-                        to see the transactions history
+                        to see the latest transactions
                         <img
                             className={"eth-logo w-full  h-96 2x:h96 rounded-md shadow-lg object-cover mt-5 "}
                             src={"https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g"}
