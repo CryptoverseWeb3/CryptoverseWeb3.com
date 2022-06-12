@@ -17,13 +17,7 @@ const TransactionsCard = ({addressTo, addressFrom, timestamp, message, keyword, 
             "sm:max-w-[300px]" +
             "flex-col p-3 rounded-md hover:shadow-2xl"
         }>
-            {/*<div className={`w-10 h-10 rounded-full flex justify-center items-center`}>*/}
-            {/*    <div className={"flex flex-row justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl"}>*/}
-            {/*        /!*{icon}*!/*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
-            <div className={"flex flex-col items-center w-full mt-3"}>
+             <div className={"flex flex-col items-center w-full mt-3"}>
                 <div className={"display-flex w-full mb-6 p-2"}>
                     <a href={`https://ropsten.etherscan.io/address/${addressFrom}`} target={"_blank"}
                        rel={"noopener noreferrer"}>
@@ -42,7 +36,6 @@ const TransactionsCard = ({addressTo, addressFrom, timestamp, message, keyword, 
 
                 <img
                     src={gifUrl || url}
-                    // src={'https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g'}
                     alt={"gif"}
                     className={"w-full h-64 2x:h96 rounded-md shadow-lg object-cover"}
                 />
@@ -61,21 +54,37 @@ const LatestTransactions = () => {
     return (
         <div className={"flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions"}>
             <div className={"flex flex-col md:p-12 py-12 px-4"}>
-                {currentAccount ? (
-                    <h3 className={"text-white text-3xl text-center my-2 pt-5"}>
+
+                {currentAccount && transactions.length > 0 ? (
+                    <h3 className={"text-gradient text-white text-4xl text-center my-2 pt-5"}>
                         10 Latest Transactions
                     </h3>
                 ) : (
-                    <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
-                        <a onClick={connectWallet} className={"text-amber-500"}>
-                            Connect your account <br/> </a>
-                        to see the latest transactions
-                        <img
-                            className={"eth-logo w-full  h-96 2x:h96 rounded-md shadow-lg object-cover mt-5 "}
-                            src={"https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g"}
-                            alt={"transactions-spinner"}
-                        />
-                    </h3>
+                    transactions.length > 0 && (
+                        <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
+                            <a onClick={connectWallet} className={"text-amber-500"}>
+                                Connect your account <br/> </a>
+                            to see the latest transactions
+                            <img
+                                className={"eth-logo w-full  h-96 2x:h96 rounded-md shadow-lg object-cover mt-5 "}
+                                src={"https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g"}
+                                alt={"transactions-spinner"}
+                            />
+                        </h3>
+                    )
+
+                    || transactions.length === 0 && (
+                        <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
+                            <p onClick={connectWallet} className={"text-gray-300"}>
+                                You haven't done any <span className={"text-amber-500"}> transactions </span> yet!
+                                <img
+                                    className={"eth-logo w-full  h-96 2x:h96 rounded-md shadow-lg object-cover mt-5 "}
+                                    src={"https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g"}
+                                    alt={"transactions-spinner"}
+                                />
+                            </p>
+                        </h3>
+                    )
                 )}
 
                 <div className={"flex flex-wrap justify-center items-center mt-5"}>
@@ -91,14 +100,14 @@ const LatestTransactions = () => {
                     ))}
                 </div>
 
-                {currentAccount && (
+                {currentAccount && transactions.length > 0 ? (
                     <h3 className={"text-white text-3xl text-center my-2 mt-10"}>
                         <Link className={"text-white"} to='/TransactionsHistory'>
                             List All Transactions.
                         </Link>
                     </h3>
-                )}
-
+                ) : (
+                    <></>
                 )}
             </div>
         </div>
