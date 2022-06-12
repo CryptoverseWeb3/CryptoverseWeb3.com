@@ -9,6 +9,7 @@ import {CgCloseR} from 'react-icons/cg'
 import {Link} from 'react-router-dom';
 
 import logo from '../../images/cryptoverseWeb3.png'
+import {TransactionsHistory} from "./index";
 
 const NavbarItem = ({title, classProps}) => {
     return (
@@ -35,10 +36,11 @@ const Navbar = () => {
                 {/*))}*/}
 
                 {[
-                    <Link className={"text-white"} to='/'>Home</Link>,
+                    // <Link className={"text-white"} to='/'>Home</Link>,
                     <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
                     <Link className={"text-white"} to='/news'>Crypto News</Link>,
                     <Link className={"text-white"} to='/'>Wallets</Link>,
+                    <Link className={"text-white"} to='/TransactionsHistory'>Transactions History</Link>,
                     <a className={"text-white"}
                        href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1'
                        target={"_blank"}>Tutorials</a>
@@ -71,6 +73,7 @@ const Navbar = () => {
                             <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
                             <Link className={"text-white"} to='/news'>Crypto News</Link>,
                             <Link className={"text-white"} to='/'>Wallets</Link>,
+                            <Link className={"text-white"} to='TransactionsHistory'>Transactions History</Link>,
                             <a className={"text-white"}
                                href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1'
                                target={"_blank"}>Tutorials</a>
