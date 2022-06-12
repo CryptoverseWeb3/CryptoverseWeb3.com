@@ -54,10 +54,9 @@ const Navbar = () => {
                 {toggleMenu
                     ? <CgCloseR fontsize={28} className={"hidden text-white md:hidden sm:hidden cursor-pointer"}
                                       onClick={() => setToggleMenu(false)}/>
-                    : <RiMenuFoldLine fontsize={28} className={" text-2xl text-white md:hidden cursor-pointer"}
+                    : <RiMenuFoldLine fontsize={28} className={"text-3xl text-white md:hidden cursor-pointer"}
                                   onClick={() => setToggleMenu(true)}/>
                 }
-
                 {toggleMenu && (
                     <ul className={"z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2x1 md:hidden list-none flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"}>
                         <li className={"text-xl w-full my-2"}>
