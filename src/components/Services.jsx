@@ -52,7 +52,7 @@ const Services = () => {
                 />
                 <ServiceCard
                     color={"bg-[#F84550]"}
-                    title={"Fastest Transactions"}
+                    title={"Fastest LatestTransactions"}
                     icon={<RiHeart2Fill fontSize={21} className={"text-white"}/>}
                     // icon={<FaEthereum fontSize={21} className={"text-white"}/>}
                     subtitle={"Security is guaranteed. We always maintain privacy and the quality of our products."}
