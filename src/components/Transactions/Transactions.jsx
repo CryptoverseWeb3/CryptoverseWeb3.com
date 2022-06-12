@@ -4,6 +4,7 @@ import {TransactionContext} from "../../context/TransactionContext";
 // import dummyData from "../../utils/dummyData";
 import useFetch from "../../hooks/useFetch";
 import {shortenAddress} from "../../utils/shortenAddress";
+import {Link} from "react-router-dom";
 
 
 const TransactionsCard = ({addressTo, addressFrom, timestamp, message, keyword, amount, url}) => {
@@ -76,6 +77,10 @@ const Transactions = () => {
                         />
                     ))}
                 </div>
+
+                <h3 className={"text-white text-3xl text-center my-2 mt-10"}>
+                    <Link className={"text-white"} to='/TransactionsHistory'>All Transactions History</Link>
+                </h3>
             </div>
         </div>
 
