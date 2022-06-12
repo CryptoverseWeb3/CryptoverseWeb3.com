@@ -34,7 +34,8 @@ const TransactionsCard = ({addressTo, addressFrom, timestamp, message, keyword, 
                 </div>
 
                 <img
-                    src={gifUrl || url}
+                    // src={gifUrl || url}
+                    src={url}
                     alt={"gif"}
                     className={"w-full h-64 2x:h96 rounded-md shadow-lg object-cover"}
                 />
