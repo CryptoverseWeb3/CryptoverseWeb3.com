@@ -2,14 +2,6 @@ import React from 'react';
 import logo from '../../images/cryptoverseWeb3.png';
 import {Link} from "react-router-dom";
 
-const NavbarItem = ({title, classProps}) => {
-    return (
-        <li className={`mx-4 cursor-pointer ${classProps}`}>
-            {title}
-        </li>
-    )
-}
-
 const Footer = () => {
     return (
         <div className={"w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer"}>
