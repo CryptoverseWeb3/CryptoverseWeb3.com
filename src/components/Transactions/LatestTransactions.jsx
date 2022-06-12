@@ -50,7 +50,7 @@ const TransactionsCard = ({addressTo, addressFrom, timestamp, message, keyword, 
 }
 
 const LatestTransactions = () => {
-    const {currentAccount, transactions} = useContext(TransactionContext);
+    const {connectWallet, currentAccount, transactions} = useContext(TransactionContext);
 
     return (
         <div className={"flex w-full justify-center items-center 2xl:px-20 gradient-bg-transactions"}>
@@ -60,8 +60,15 @@ const LatestTransactions = () => {
                         10 Latest Transactions
                     </h3>
                 ) : (
-                    <h3 className={"text-white text-3xl text-center my-2"}>
-                        Connect your account to see the latest transactions
+                    <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
+                        <a onClick={connectWallet} className={"text-amber-500"}>
+                            Connect your account <br/> </a>
+                        to see the transactions history
+                        <img
+                            className={"eth-logo w-full  h-96 2x:h96 rounded-md shadow-lg object-cover mt-5 "}
+                            src={"https://media3.giphy.com/media/Hx13ouuEzEff1GbcpJ/giphy.gif?cid=790b76116e9aeb1aa06c0af621e73ac96ef317de52d8fdea&rid=giphy.gif&ct=g"}
+                            alt={"gif"}
+                        />
                     </h3>
                 )}
 
@@ -78,11 +85,15 @@ const LatestTransactions = () => {
                     ))}
                 </div>
 
-                <h3 className={"text-white text-3xl text-center my-2 mt-10"}>
-                    <Link className={"text-white"} to='/TransactionsHistory'>
-                        List All Transactions.
-                    </Link>
-                </h3>
+                {currentAccount && (
+                    <h3 className={"text-white text-3xl text-center my-2 mt-10"}>
+                        <Link className={"text-white"} to='/TransactionsHistory'>
+                            List All Transactions.
+                        </Link>
+                    </h3>
+                )}
+
+                )}
             </div>
         </div>
 

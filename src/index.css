@@ -8,6 +8,12 @@
 .navbar-size{
     font-size: 16px;
 }
+
+.eth-logo{
+    height: 30rem;
+    overflow: hidden;
+}
+
 body {
     margin: 0;
     font-family: "Open Sans", sans-serif;
