@@ -1,7 +1,8 @@
- import {
+import {
     Navbar,
     Homepage,
     TransactionsHistory,
+    Market,
     Cryptocurrencies,
     CryptoDetails,
     News,
@@ -33,6 +34,9 @@ const App = () => {
                         <Homepage/>
                     }/>
 
+                    <Route exact path={"/Market"} element={
+                        <NewRoutes navTo={<Market/>}/>
+                    }/>
                     <Route exact path={"/Cryptocurrencies"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
                     }/>
