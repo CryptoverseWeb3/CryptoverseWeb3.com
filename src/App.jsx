@@ -1,4 +1,13 @@
-import {Navbar, Homepage, TransactionsHistory, Cryptocurrencies, CryptoDetails, News, Footer,} from './components'
+import {
+    Navbar,
+    Homepage,
+    TransactionsHistory,
+    Cryptocurrencies,
+    CryptoDetails,
+    News,
+    Footer,
+} from './components'
+
 import './App.css';
 import {Route, Routes} from "react-router-dom";
 
@@ -24,7 +33,7 @@ const App = () => {
                         <Homepage/>
                     }/>
 
-                    <Route exact path={"/Cryptocurrencies"} element={
+                    <Route exact path={"/CryptoCoins"} element={
                         <NewRoutes navTo={<Cryptocurrencies/>}/>
                     }/>
                     <Route exact path={"/crypto/:coinId"} element={

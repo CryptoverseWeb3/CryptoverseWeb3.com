@@ -7,7 +7,7 @@ import {useGetCryptosQuery} from '../../services/cryptoApi';
 
 import Loader from '../Loader';
 
-const Cryptocurrencies = ({simplified}) => {
+const CryptoCoins = ({simplified}) => {
     const count = simplified ? 10 : 100;
     const {data: cryptosList, isFetching} = useGetCryptosQuery(count);
 
@@ -55,4 +55,4 @@ const Cryptocurrencies = ({simplified}) => {
 
     );
 };
-export default Cryptocurrencies;
+export default CryptoCoins;
