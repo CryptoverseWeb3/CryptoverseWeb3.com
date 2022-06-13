@@ -2,6 +2,14 @@ import React from 'react';
 import logo from '../../images/cryptoverseWeb3.png';
 import {Link} from "react-router-dom";
 
+const NavbarItem = ({title, classProps}) => {
+    return (
+        <li className={`mx-4 cursor-pointer ${classProps}`}>
+            {title}
+        </li>
+    )
+}
+
 const Footer = () => {
     return (
         <div className={"w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer"}>
@@ -10,15 +18,26 @@ const Footer = () => {
                     <img src={logo} alt="CryptoverseWeb3 logo" className={"w-48"}/>
                 </div>
                 <div className={"flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full navbar-size"}>
-                    <Link className={"text-white mr-2"} to='/'>Home</Link>,
-                    <Link className={"text-white mr-2"} to='/market'>Market</Link>,
-                    <Link className={"text-white mr-2"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
-                    <Link className={"text-white mr-2"} to='/news'>News</Link>,
-                    <Link className={"text-white mr-2"} to='/'>Wallets</Link>,
-                    <Link className={"text-white"} to='/TransactionsHistory'>Transactions History</Link>,
-                    <a className={"text-white mr-2"} href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1' target={"_blank"}>
-                        Tutorials
-                    </a>
+                    <ul className={"navbar-size text-white md:flex hidden list-none flex-row justify-between items-center flex-initial"}>
+                        {[
+                            <Link className={"text-white"} to='/'>Home</Link>,
+                            <Link className={"text-white"} to='/market'>Market</Link>,
+                            <Link className={"text-white"} to='/cryptocurrencies'>Cryptocurrencies</Link>,
+                            <Link className={"text-white"} to='/news'>Crypto News</Link>,
+                            <Link className={"text-white"} to='/'>Wallets</Link>,
+                            <Link className={"text-white"} to='/TransactionsHistory'>Transactions History</Link>,
+                            <a className={"text-white"}
+                               href='https://www.youtube.com/channel/UCu7EGHHiNgEN2228BKD1pqg/?sub_confirmation=1'
+                               target={"_blank"}>Tutorials</a>
+                        ].map((item, index) => (
+                            <NavbarItem key={item + index} title={item}/>
+                        ))}
+
+                        {/*<li className={"bg-[] py-2 px-5 mx-4 rounded-lg cursor-pointer hover:bg-[#ed830e]"}>*/}
+                        {/*    <a className={"text-white"} href="https://www.linktree.com/CryptoverseWeb3" target={"_blank"}> Social links*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
+                    </ul>
                 </div>
             </div>
 
