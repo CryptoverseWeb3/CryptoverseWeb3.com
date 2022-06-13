@@ -61,6 +61,7 @@ const Transactions = () => {
                             10 Latest Transactions
                         </h3>
                     )
+
                     || transactions.length === 0 && (
                         <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
                             <p onClick={connectWallet} className={"text-gray-300"}>
@@ -75,7 +76,6 @@ const Transactions = () => {
                     )
 
                 ) : (
-
                     <h3 className={"text-gray-300 text-3xl text-center my-2 "}>
                         <a onClick={connectWallet} className={"text-amber-500"}>
                             Connect your account <br/> </a>
