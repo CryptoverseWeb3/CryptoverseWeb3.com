@@ -8,7 +8,7 @@ import logo from '../../images/cryptoverseWeb3.png'
 
 const NavbarItem = ({title, classProps}) => {
     return (
-        <li className={`mx-4 cursor-pointer ${classProps}`}>
+        <li className={`mx-4 cursor-pointer ${classProps} mt-2 navbar-size`}>
             {title}
         </li>
     )
