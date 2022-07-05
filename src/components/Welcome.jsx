@@ -7,7 +7,6 @@ import {BsInfoCircle} from "react-icons/bs";
 import {TransactionContext} from "../context/TransactionContext";
 import {shortenAddress} from "../utils/shortenAddress";
 import {Loader} from './'
-// import {AiFillPlayCircle} from "react-icons/all";
 
 
 const commonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white"
@@ -38,7 +37,6 @@ const Welcome = () => {
         e.preventDefault()
 
         if (!addressTo || !amount || !keyword || !message) return;
-
         sendTransaction();
     }
 
