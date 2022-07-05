@@ -1,14 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {BrowserRouter as Router} from 'react-router-dom';
+import {Provider} from 'react-redux';
+
 import App from './App'
 import './index.css'
 
-import {TransactionProvider} from "./context/TransactionContext";
+import 'antd/dist/antd.css';
+import store from './app/store';
+
+import {TransactionsProvider} from "./context/TransactionContext";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <TransactionProvider>
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-    </TransactionProvider>
+    <TransactionsProvider>
+      <React.StrictMode>
+        <Router>
+          <Provider store={store}>
+            <App/>
+          </Provider>
+        </Router>
+      </React.StrictMode>
+    </TransactionsProvider>
 )
