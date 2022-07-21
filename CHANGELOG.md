@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.1...v0.1.2) (2022-07-21)
+
+
+### Bug Fixes
+
+* upgrade antd from 4.21.3 to 4.21.4 ([#79](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/79)) ([61c89b8](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/61c89b85fb25f797690f3e7ca6eb9ad9312b1051))
+
+
+
 ## [0.1.1](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.0...v0.1.1) (2022-07-21)
 
 
