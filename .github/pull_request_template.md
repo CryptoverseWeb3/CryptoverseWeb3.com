@@ -1,8 +1,9 @@
-<!-- If your PR fixes an open issue, use `Closes #23` to link your PR with the issue. #23 stands for the issue number you are fixing -->
+<!-- If your PR fixes an open issue, use `Closes #23` or `fix #23` in your commit message and your description to link your PR with the issue. 
+#23 stands for the issue number you are fixing, but you should still explain what the change does. -->
 
 ## Fixes Issue
 <!-- Remove this section if not applicable -->
-<!-- Example: Closes #31 -->
+<!-- Example: Closes #31 or Fixes #23 -->
 
 ## Changes proposed
 <!-- List all the proposed changes in your PR -->
@@ -13,19 +14,12 @@
 ## Note to reviewers
 <!-- Add notes to reviewers if applicable -->
 
-
 <!-- --------------- -->
 <!-- Mark all the applicable boxes. To mark the box as done follow the following conventions -->
 <!--
 Correct ways to mark a box:
 [x] - Correct; marked as done
-[X] - Correct; marked as done
-
-Incorrect ways to mark a box:
-[ ] - Incorrect; marked as not done
-[x ] - Incorrect;
-[ x ] - Incorrect;
-[ x] - Incorrect;
+[ ] - marked as not done
 -->
 
 ## Code of Conduct
@@ -41,6 +35,6 @@ Incorrect ways to mark a box:
 
 ---
 
-You can also join our [Discord](https://discord.gg/WhDry9FWE7) community. <br>
-Feel free to check out other cool repositories of the [Cryptoverse Web3](https://github.com/CryptoverseWeb3). <br>
+You can also join our [Discord](https://discord.gg/WhDry9FWE7) community. 
+Feel free to check out other cool repositories of the [Cryptoverse Web3](https://github.com/CryptoverseWeb3). 
 Join the Cryptoverse Web3 GitHub Organisation by raising an [issue](https://github.com/CryptoverseWeb3/Support/issues/new?assignees=&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+GitHub+Community+Organization) (you will be sent an invitation).
