@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.2...v0.2.0) (2022-07-21)
+
+
+### Features
+
+* open source ([#82](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/82)) ([95ced54](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/95ced540f84ffb4d08ddb8924b44ffb46a2dcb4f))
+
+
+
 ## [0.1.2](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.1...v0.1.2) (2022-07-21)
 
 
