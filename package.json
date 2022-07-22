@@ -2,7 +2,6 @@
   "homepage": "http://cryptoverseWeb3.github.io/cryptoverseWeb3",
   "name": "cryptoverseweb3",
   "private": true,
-  "version": "0.3.1",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
