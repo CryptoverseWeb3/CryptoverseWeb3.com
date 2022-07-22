@@ -16,6 +16,8 @@ Cryptoverse Web3 is a platform that provides secure and fast transactions with l
 Before installation, please make sure you have already installed the following tools:
 - [Git](https://git-scm.com/downloads)
 - [Nodejs](https://nodejs.org/en/download/)
+- [Ganache](https://trufflesuite.com/ganache/)
+- [Metamask](https://metamask.io/)
 
 ---
 
