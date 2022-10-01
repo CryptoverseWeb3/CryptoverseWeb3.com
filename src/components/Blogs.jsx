@@ -1,14 +1,17 @@
 import BlogCard from "./BlogCard";
 
-const blogList = [...Array(12).keys()].map((_, key) => {
+const blogList = [...Array(2).keys()].map((_, key) => {
   return (
     <BlogCard
       key={key}
-      category="Pets"
-      title="Adopt Cute Pets"
+      category="Around the block"
+      title="Scaling Ethereum and crypto for a billion users"
       content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus enim magna, at suscipit ex mattis id. Pellentesque efficitur nunc nibh, ac cursus erat placerat nec. Donec tincidunt quam iaculis, porta turpis non, sodales eros. Phasellus aliquam tempus lectus sed hendrerit."
       commentCount={20}
       viewCount={6}
+      imgUrl={
+        "https://images.ctfassets.net/q5ulk4bp65r7/4sCdtXufV4yr6NPAccRXhI/69332d7e5228db0a4b038914e2bbc5ce/ATB-3__1_.png?w=768&fm=png"
+      }
     />
   );
 });

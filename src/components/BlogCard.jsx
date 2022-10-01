@@ -4,12 +4,12 @@ import {
   CommentOutlined,
 } from "@ant-design/icons";
 
-const BlogCard = ({ category, title, content, viewCount, commentCount }) => {
+const BlogCard = ({ category, title, content, viewCount, commentCount,imgUrl }) => {
   return (
     <article className="max-w-md overflow-hidden transition-shadow duration-150 ease-in-out border border-gray-200 rounded-lg shadow-sm cursor-pointer hover:shadow-lg">
       <img
         className="w-full"
-        src="https://picsum.photos/id/237/720/400"
+        src={imgUrl}
         alt="Sunset in the mountains"
       />
       <div className="px-6 py-4">
