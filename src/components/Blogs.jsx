@@ -1,6 +1,10 @@
+import BlogCard from "./BlogCard";
+
 const Blogs = () => {
   return (
-    <div>Blogs</div>
-  )
-}
-export default Blogs
+    <div>
+      <BlogCard />
+    </div>
+  );
+};
+export default Blogs;
