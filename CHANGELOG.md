@@ -1,4 +1,13 @@
-# 0.1.0 (2022-07-22)
+# [0.2.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.0...v0.2.0) (2022-10-03)
+
+
+### Features
+
+* infinite scroll ([#7](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/7)) ([6f0319b](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/6f0319b0da3d99082d373dfacf23c66e451ee329))
+
+
+
+# [0.1.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/c598933d3802bb92effa34e5f039c2c58b6c9849...v0.1.0) (2022-07-22)
 
 
 ### Bug Fixes
