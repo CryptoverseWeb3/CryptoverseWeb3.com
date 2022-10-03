@@ -10,3 +10,4 @@ export {default as Cryptocurrencies} from './Cryptocurrencies/Cryptocurrencies';
 export {default as CryptoDetails} from './Cryptocurrencies/CryptoDetails.jsx';
 export {default as News} from './Cryptocurrencies/News';
 export {default as Footer} from './Footer';
+export {default as Blogs} from "./Blogs"

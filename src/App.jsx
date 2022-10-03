@@ -7,6 +7,7 @@ import {
     CryptoDetails,
     News,
     Footer,
+    Blogs,
 } from './components'
 
 import './App.css';
@@ -45,6 +46,9 @@ const App = () => {
                     }/>
                     <Route exact path={"/news"} element={
                         <NewRoutes navTo={<News/>}/>
+                    }/>
+                    <Route exact path={"/blogs"} element={
+                        <NewRoutes navTo={<Blogs/>}/>
                     }/>
 
                     <Route exact path={"/TransactionsHistory"} element={
