@@ -26,7 +26,7 @@ const NewRoutes = ({navTo}) => {
 
 const App = () => {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen gradient-bg-welcome">
             <div className="gradient-bg-welcome">
             </div>
             <div>
