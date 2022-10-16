@@ -15,7 +15,7 @@ import {Route, Routes} from "react-router-dom";
 
 const NewRoutes = ({navTo}) => {
     return (<>
-        <div >
+        <div>
             <Navbar/>
         </div>
         <div className="routes">
