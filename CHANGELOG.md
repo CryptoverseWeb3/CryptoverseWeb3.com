@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.2.0...v0.3.0) (2022-10-17)
+
+
+### Features
+
+* transparent card style ([#16](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/16)) ([b83f1f3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/b83f1f38c9ce8325191d6c8568ad0221471326a9))
+
+
+
 # [0.2.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.0...v0.2.0) (2022-10-03)
 
 
