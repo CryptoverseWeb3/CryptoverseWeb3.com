@@ -6,6 +6,13 @@ import {Card, Row, Col, Input} from 'antd';
 import {useGetCryptosQuery} from '../../services/cryptoApi';
 
 import Loader from '../Loader';
+import {
+    CryptoCardHeader,
+    CryptocurrenciesCard,
+    CryptocurrenciesImage,
+    CryptocurrenciesName,
+    SearchContainer
+} from "./CryptocurrenciesElements";
 
 const Cryptocurrencies = ({simplified}) => {
     const count = simplified ? 10 : 100;
@@ -20,33 +27,30 @@ const Cryptocurrencies = ({simplified}) => {
         setCryptos(filteredData);
     }, [cryptosList, searchTerm])
 
-    if (isFetching) return <Loader />;
+    if (isFetching) return <Loader/>;
 
     return (
         <>
             {!simplified && (
-            <div className={"search-crypto"}>
-                <Input placeholder={"Search Cryptocurrency"} onChange={(e) => setSearchTerm(e.target.value)}/>
-            </div>
+                <SearchContainer placeholder={"Search Cryptocurrency"} onChange={(e) => setSearchTerm(e.target.value)}/>
             )}
 
             <Row gutter={[32, 32]} className={"crypto-card-container"}>
                 {cryptos?.map((currency) => (
                     <Col xs={24} sm={12} lg={6} className={"crypto-card"} key={currency.uuid}>
+
                         <Link key={currency.uuid} to={`/crypto/${currency.uuid}`}>
-                            <Card     style={{
-                                margin: "5px",
-                                borderRadius: "10px",
-                                overflow: "hidden"
-                            }}
-                                title={`${currency.rank}. ${currency.name}`}
-                                extra={<img className="crypto-image" src={currency.iconUrl} alt={"alt"}/>}
-                                hoverable
-                            >
+
+                            <CryptocurrenciesCard>
+                                <CryptoCardHeader>
+                                    <CryptocurrenciesName>{currency.rank}. {currency.name}</CryptocurrenciesName>
+                                    <CryptocurrenciesImage className="crypto-image" src={currency.iconUrl} alt={"alt"}/>
+                                </CryptoCardHeader>
                                 <p>Price: {millify(currency.price)}</p>
                                 <p>Market Cap: {millify(currency.marketCap)}</p>
                                 <p>Daily Change: {currency.change}%</p>
-                            </Card>
+                            </CryptocurrenciesCard>
+
                         </Link>
                     </Col>
                 ))}
