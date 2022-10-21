@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.0...v0.3.1) (2022-10-21)
+
+
+### Bug Fixes
+
+* upgrade ethers from 5.6.9 to 5.7.1 ([#21](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/21)) ([1c2aba0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/1c2aba0e526b066845b6d75f3d984b7085f26ba8))
+
+
+
 # [0.3.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.2.0...v0.3.0) (2022-10-17)
 
 
