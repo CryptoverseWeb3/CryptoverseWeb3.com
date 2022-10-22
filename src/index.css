@@ -157,9 +157,9 @@ body {
 }
 
 .dark-global-crypto-stats {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   backdrop-filter: saturate(180%) blur(10px);
-  border: #1c1f26;
+  border: solid #ffffff;
   border-radius: 16px;
   padding: 15px;
   /*backdrop-filter: blur(5px);*/
@@ -653,7 +653,7 @@ a:hover {
 
 .crypto-card .crypto-image {
   width: 35px;
-} 
+}
 
 .select-timeperiod {
   color: var(--heading-color-dark) !important;
