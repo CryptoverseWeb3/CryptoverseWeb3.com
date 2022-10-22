@@ -1,3 +1,13 @@
+## [0.3.5](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.4...v0.3.5) (2022-10-22)
+
+
+### Bug Fixes
+
+* upgrade @tailwindcss/forms from 0.5.2 to 0.5.3 ([#27](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/27)) ([4c9aeec](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4c9aeec1bde4ecc9d5998e6a072bc10b578269df))
+* upgrade millify from 4.0.0 to 4.0.1 ([#28](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/28)) ([4bfdc38](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4bfdc38cd114a2fa86474bf4e855de882db1aebb))
+
+
+
 ## [0.3.4](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.3...v0.3.4) (2022-10-22)
 
 
@@ -32,15 +42,6 @@
 ### Bug Fixes
 
 * upgrade ethers from 5.6.9 to 5.7.1 ([#21](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/21)) ([1c2aba0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/1c2aba0e526b066845b6d75f3d984b7085f26ba8))
-
-
-
-# [0.3.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.2.0...v0.3.0) (2022-10-17)
-
-
-### Features
-
-* transparent card style ([#16](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/16)) ([b83f1f3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/b83f1f38c9ce8325191d6c8568ad0221471326a9))
 
 
 
