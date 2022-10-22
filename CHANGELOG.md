@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.3...v0.3.4) (2022-10-22)
+
+
+### Bug Fixes
+
+* upgrade react-redux from 8.0.2 to 8.0.4 ([#26](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/26)) ([de8c427](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/de8c4279945ddd533570014059878401091b94d0))
+
+
+
 ## [0.3.3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.2...v0.3.3) (2022-10-21)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * transparent card style ([#16](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/16)) ([b83f1f3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/b83f1f38c9ce8325191d6c8568ad0221471326a9))
-
-
-
-# [0.2.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.1.0...v0.2.0) (2022-10-03)
-
-
-### Features
-
-* infinite scroll ([#7](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/7)) ([6f0319b](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/6f0319b0da3d99082d373dfacf23c66e451ee329))
 
 
 
