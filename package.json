@@ -16,7 +16,7 @@
     "antd": "^4.21.4",
     "ethers": "^5.7.1",
     "html-react-parser": "^1.4.14",
-    "millify": "^4.0.0",
+    "millify": "^4.0.1",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",
