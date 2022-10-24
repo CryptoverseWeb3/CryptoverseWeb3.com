@@ -1,3 +1,12 @@
+## [0.3.6](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.5...v0.3.6) (2022-10-24)
+
+
+### Bug Fixes
+
+* upgrade antd from 4.21.4 to 4.23.3 ([#18](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/18)) ([d4341bb](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/d4341bb63bc46ae1b292a285f2493780edb308a8))
+
+
+
 ## [0.3.5](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.4...v0.3.5) (2022-10-22)
 
 
@@ -33,15 +42,6 @@
 
 * upgrade @reduxjs/toolkit from 1.8.3 to 1.8.5 ([#19](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/19)) ([22a1f02](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/22a1f0261b6a18326a24b1c778c7d2108d8e1874))
 * upgrade react-router-dom from 6.3.0 to 6.4.1 ([#17](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/17)) ([2c96f8b](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/2c96f8b58c47aaf67692155c16127ccb313e1f18))
-
-
-
-## [0.3.1](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.0...v0.3.1) (2022-10-21)
-
-
-### Bug Fixes
-
-* upgrade ethers from 5.6.9 to 5.7.1 ([#21](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/21)) ([1c2aba0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/1c2aba0e526b066845b6d75f3d984b7085f26ba8))
 
 
 
