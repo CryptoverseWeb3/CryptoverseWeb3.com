@@ -14,6 +14,16 @@
   overflow: hidden;
 }
 
+.social-icon{
+  margin: 10px 20px;
+  font-size: 20px;
+  color:white;
+}
+
+.social-icon:hover{
+  color:#ff8100;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -653,7 +663,7 @@ a:hover {
 
 .crypto-card .crypto-image {
   width: 35px;
-} 
+}
 
 .select-timeperiod {
   color: var(--heading-color-dark) !important;
