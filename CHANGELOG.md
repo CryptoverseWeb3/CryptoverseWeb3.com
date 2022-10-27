@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.6...v0.4.0) (2022-10-27)
+
+
+### Features
+
+* upgrade html-react-parser from 1.4.14 to 3.0.4 ([#30](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/30)) ([ce5214f](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/ce5214fc794eaef86764ac3f3cbefbabf673f03f))
+
+
+
 ## [0.3.6](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.5...v0.3.6) (2022-10-24)
 
 
@@ -32,16 +41,6 @@
 ### Bug Fixes
 
 * upgrade react-chartjs-2 from 4.2.0 to 4.3.1 ([#20](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/20)) ([d292c99](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/d292c99cfb9ce6c878832d8171de738200a9abfc))
-
-
-
-## [0.3.2](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.1...v0.3.2) (2022-10-21)
-
-
-### Bug Fixes
-
-* upgrade @reduxjs/toolkit from 1.8.3 to 1.8.5 ([#19](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/19)) ([22a1f02](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/22a1f0261b6a18326a24b1c778c7d2108d8e1874))
-* upgrade react-router-dom from 6.3.0 to 6.4.1 ([#17](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/17)) ([2c96f8b](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/2c96f8b58c47aaf67692155c16127ccb313e1f18))
 
 
 
