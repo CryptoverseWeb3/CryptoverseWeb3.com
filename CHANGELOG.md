@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.4.0...v0.5.0) (2022-10-31)
+
+
+### Features
+
+* upgrade millify from 4.0.0 to 5.0.1 ([#31](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/31)) ([06385a3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/06385a3fe6599674cd196b39426797ebab67d138))
+
+
+
 # [0.4.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.6...v0.4.0) (2022-10-27)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * upgrade react-redux from 8.0.2 to 8.0.4 ([#26](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/26)) ([de8c427](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/de8c4279945ddd533570014059878401091b94d0))
-
-
-
-## [0.3.3](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.2...v0.3.3) (2022-10-21)
-
-
-### Bug Fixes
-
-* upgrade react-chartjs-2 from 4.2.0 to 4.3.1 ([#20](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/20)) ([d292c99](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/d292c99cfb9ce6c878832d8171de738200a9abfc))
 
 
 
