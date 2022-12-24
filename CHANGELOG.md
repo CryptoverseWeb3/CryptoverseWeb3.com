@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.5.0...v0.5.1) (2022-12-24)
+
+
+### Bug Fixes
+
+* upgrade react-router-dom from 6.4.1 to 6.4.2 ([#32](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/32)) ([c4b073e](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/c4b073e9da28e38d5c88fafbd75fbc9e529632d1))
+
+
+
 # [0.5.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.4.0...v0.5.0) (2022-10-31)
 
 
@@ -32,15 +41,6 @@
 
 * upgrade @tailwindcss/forms from 0.5.2 to 0.5.3 ([#27](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/27)) ([4c9aeec](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4c9aeec1bde4ecc9d5998e6a072bc10b578269df))
 * upgrade millify from 4.0.0 to 4.0.1 ([#28](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/28)) ([4bfdc38](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4bfdc38cd114a2fa86474bf4e855de882db1aebb))
-
-
-
-## [0.3.4](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.3...v0.3.4) (2022-10-22)
-
-
-### Bug Fixes
-
-* upgrade react-redux from 8.0.2 to 8.0.4 ([#26](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/26)) ([de8c427](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/de8c4279945ddd533570014059878401091b94d0))
 
 
 
