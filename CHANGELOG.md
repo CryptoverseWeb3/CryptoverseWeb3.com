@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.5.1...v0.6.0) (2022-12-25)
+
+
+### Features
+
+* upgrade antd from 4.23.3 to 5.0.3 ([#33](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/33)) ([549bac7](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/549bac77625d00fc1b82aff558b17835b886638e))
+
+
+
 ## [0.5.1](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.5.0...v0.5.1) (2022-12-24)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * upgrade antd from 4.21.4 to 4.23.3 ([#18](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/18)) ([d4341bb](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/d4341bb63bc46ae1b292a285f2493780edb308a8))
-
-
-
-## [0.3.5](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/compare/v0.3.4...v0.3.5) (2022-10-22)
-
-
-### Bug Fixes
-
-* upgrade @tailwindcss/forms from 0.5.2 to 0.5.3 ([#27](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/27)) ([4c9aeec](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4c9aeec1bde4ecc9d5998e6a072bc10b578269df))
-* upgrade millify from 4.0.0 to 4.0.1 ([#28](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/issues/28)) ([4bfdc38](https://github.com/CryptoverseWeb3/CryptoverseWeb3.com/commit/4bfdc38cd114a2fa86474bf4e855de882db1aebb))
 
 
 
