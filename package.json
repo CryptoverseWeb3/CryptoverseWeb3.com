@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "antd": "^5.0.3",
-    "@reduxjs/toolkit": "^1.8.5",
+    "@ant-design/icons": "^6.0.0",
+    "antd": "^5.12.7",
+    "@reduxjs/toolkit": "^2.0.0",
     "@tailwindcss/forms": "^0.5.3",
     "ethers": "^5.7.1",
     "html-react-parser": "^3.0.4",
@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-infinite-scroll-component": "^6.1.0",
-    "react-redux": "^8.0.2",
+    "react-redux": "^9.0.0",
     "react-router-dom": "^6.4.2",
     "styled-components": "^5.3.6"
   },
